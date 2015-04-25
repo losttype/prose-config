@@ -1,6 +1,6 @@
 ---
 title: Example Post 1
-author: kennethormandy
+author: kenneth-ormandy
 date: 2011-11-22
 category: news
 fonts: lavanderia

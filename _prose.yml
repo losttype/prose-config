@@ -2,7 +2,7 @@ prose:
   rooturl: 'src'
   siteurl: 'http://blog.losttype.com/'
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  ignore: ['src/_authors.json', 'src/_fonts.json']
+  # ignore: ['src/_authors.json', 'src/_fonts.json']
   media: 'media'
   metadata:
     src:
@@ -30,7 +30,7 @@ prose:
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: "_fonts.json"
+          options: "src/_fonts.json"
           # options:
           #   - Lavanderia
           #   - Dude
