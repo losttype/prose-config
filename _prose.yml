@@ -25,14 +25,14 @@ prose:
           element: "text"
           label: "Date"
           help: "The published date. (YYYY-MM-DD HH:MM:SS)"
-          value: 2016-01-01 14:30:00
+          value: "2016-01-01 14:30:00"
       - name: "fonts"
         field:
           element: "multiselect"
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: "_fonts.jsonp"
+          options: '{ "name": "Granny Apples", "value": "granny-apples" }'
           alterable: true
           # options:
           #   - Lavanderia

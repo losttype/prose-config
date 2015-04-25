@@ -1,3 +1,1 @@
-callback([
-  { "name": "Granny Apples", "value": "granny-apples" }
-]);
+{ "name": "Granny Apples", "value": "granny-apples" }
