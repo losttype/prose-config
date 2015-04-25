@@ -32,7 +32,8 @@ prose:
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: fonts.json
+          options: >
+            [{ "name": "Granny Apples", "value": "granny-apples" }]
           alterable: true
           # options:
           #   - Lavanderia
