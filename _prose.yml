@@ -43,22 +43,23 @@ prose:
           alterable: true
           options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian" ]
       - name: "category"
-          field:
-            element: "select"
-            label: "Category"
-            options:
-              - "name": "News"
-                "value": "news"
-              - "name": "Fonts in Use"
-                "value": "fonts-in-use"
-              - "name": "Field Trip Chicago"
-                "value": "fieldtripchi"
-              - "name": "Field Trip Amsterdam"
-                "value": "fieldtripam"
-              - "name": "Field Trip New York"
-                "value": "fieldtripny"
-              - "name": "Field Trip San Francisco"
-                "value": "fieldtripsf"
+        field:
+          element: "select"
+          label: "Category"
+          value: "news"
+          options:
+            - "name": "News"
+              "value": "news"
+            - "name": "Fonts in Use"
+              "value": "fonts-in-use"
+            - "name": "Field Trip Chicago"
+              "value": "fieldtripchi"
+            - "name": "Field Trip Amsterdam"
+              "value": "fieldtripam"
+            - "name": "Field Trip New York"
+              "value": "fieldtripny"
+            - "name": "Field Trip San Francisco"
+              "value": "fieldtripsf"
       - name: "comments"
         field:
           element: checkbox
