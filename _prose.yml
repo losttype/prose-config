@@ -30,7 +30,7 @@ prose:
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: "src/_fonts.json"
+          options: "src/_fonts.jsonp"
           alterable: true
           # options:
           #   - Lavanderia
