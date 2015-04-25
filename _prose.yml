@@ -32,8 +32,7 @@ prose:
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: >
-            { "name": "Granny Apples", "value": "granny-apples" }
+          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian" ]
           alterable: true
           # options:
           #   - Lavanderia
