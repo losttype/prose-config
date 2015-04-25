@@ -18,12 +18,7 @@ prose:
         field:
           element: "select"
           label: "author"
-          options: "_authors.json"
-          # options:
-          #   - Riley
-          #   - Danelle
-          #   - Frances
-          #   - Kenneth
+          options: "src/_authors.json"
       - name: "date"
         field:
           element: "text"
