@@ -25,14 +25,14 @@ prose:
           element: "text"
           label: "Date"
           help: "The published date. (YYYY-MM-DD HH:MM:SS)"
-          value: "2016-01-01 14:30:00"
+          value: 2016-01-01 14:30:00
       - name: "fonts"
         field:
           element: "multiselect"
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: "src/_fonts.jsonp"
+          options: "_fonts.jsonp"
           alterable: true
           # options:
           #   - Lavanderia
@@ -42,6 +42,5 @@ prose:
       - name: "comments"
         field:
           element: checkbox
-          label: "Comments"
-          help: "Turn public comments on or off."
+          label: "Allow Comments"
           value: "true"
