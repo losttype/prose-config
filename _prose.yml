@@ -17,24 +17,24 @@ prose:
         field:
           element: "select"
           label: "author"
-          # options: "node_modules/losttype-contributors/index.json"
-          options:
-            - Riley
-            - Danelle
-            - Frances
-            - Kenneth
+          options: "_authors.json"
+          # options:
+          #   - Riley
+          #   - Danelle
+          #   - Frances
+          #   - Kenneth
       - name: "date"
         field:
           element: "text"
           label: "date"
-          value: "2016-01-01"
+          value: "new Date().toISOString()"
       - name: "fonts"
         field:
           element: "multiselect"
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          # options: "node_modules/losttype-listing/index.json"
+          options: "_fonts.json"
           options:
             - Lavanderia
             - Dude
