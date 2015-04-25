@@ -1,1 +1,3 @@
-{ "name": "Granny Apples", "value": "granny-apples" }
+callback([
+  { "name": "Granny Apples", "value": "granny-apples" }
+]);

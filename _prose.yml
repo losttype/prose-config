@@ -9,21 +9,23 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
       - name: "template"
         field:
           element: "hidden"
+          label: "Template"
           value: "post.html"
       - name: "author"
         field:
           element: "select"
-          label: "author"
+          label: "Author"
           options: "src/_authors.json"
       - name: "date"
         field:
           element: "text"
-          label: "date"
-          value: "new Date().toISOString()"
+          label: "Date"
+          help: "The published date. (YYYY-MM-DD HH:MM:SS)"
+          value: "2016-01-01 14:30:00"
       - name: "fonts"
         field:
           element: "multiselect"
@@ -37,3 +39,9 @@ prose:
           #   - Dude
           #   - Klinic Slab
           #   - Fairview
+      - name: "comments"
+        field:
+          element: checkbox
+          label: "Comments"
+          help: "Turn public comments on or off."
+          value: "true"
