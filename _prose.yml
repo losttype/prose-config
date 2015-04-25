@@ -36,8 +36,8 @@ prose:
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
           options: "_fonts.json"
-          options:
-            - Lavanderia
-            - Dude
-            - Klinic Slab
-            - Fairview
+          # options:
+          #   - Lavanderia
+          #   - Dude
+          #   - Klinic Slab
+          #   - Fairview
