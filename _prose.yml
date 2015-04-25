@@ -20,30 +20,14 @@ prose:
           element: "select"
           label: "Author"
           options:
-            [{
-              "name": "Riley Cran",
-              "value": "riley-cran",
-              "url": "http://rileycran.com",
-              "contribution": "Operator and Co-Founder"
-            },
-            {
-              "name": "Danelle Cheney",
-              "value": "danelle-cheney",
-              "url": "http://www.danellecheney.com",
-              "contribution": "Admin Assistant"
-            },
-            {
-              "name": "Frances MacLeod",
-              "value": "frances-macLeod",
-              "url": "http://www.francesmacleod.com",
-              "contribution": "Typeface"
-            },
-            {
-              "name": "Kenneth Ormandy",
-              "value": "kenneth-ormandy",
-              "url": "http://kennethormandy.com",
-              "contribution": "Type Tester"
-            }]
+            - "name": "Riley Cran"
+              "value": "riley-cran"
+            - "name": "Danelle Cheney"
+              "value": "danelle-cheney"
+            - "name": "Frances MacLeod"
+              "value": "frances-macLeod"
+            - "name": "Kenneth Ormandy"
+              "value": "kenneth-ormandy"
       - name: "date"
         field:
           element: "text"
