@@ -32,7 +32,7 @@ prose:
           label: "fonts in use"
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
-          options: 'fonts.json'
+          options: fonts.json
           alterable: true
           # options:
           #   - Lavanderia
