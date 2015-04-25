@@ -31,6 +31,7 @@ prose:
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
           options: "src/_fonts.json"
+          alterable: true
           # options:
           #   - Lavanderia
           #   - Dude
