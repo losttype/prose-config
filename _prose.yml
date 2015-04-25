@@ -40,3 +40,6 @@ prose:
             - Dude
             - Klinic Slab
             - Fairview
+  ignore:
+    - "_authors.json"
+    - "_fonts.json"
