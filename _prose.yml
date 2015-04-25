@@ -2,6 +2,7 @@ prose:
   rooturl: 'src'
   siteurl: 'http://blog.losttype.com/'
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  ignore: ['_authors.json', '_fonts.json']
   media: 'media'
   metadata:
     src:
@@ -40,6 +41,3 @@ prose:
             - Dude
             - Klinic Slab
             - Fairview
-  ignore:
-    - "_authors.json"
-    - "_fonts.json"
