@@ -1,0 +1,42 @@
+prose:
+  rooturl: 'src'
+  siteurl: 'http://blog.losttype.com/'
+  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'media'
+  metadata:
+    src:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "template"
+        field:
+          element: "hidden"
+          value: "post.html"
+      - name: "author"
+        field:
+          element: "select"
+          label: "author"
+          # options: "node_modules/losttype-contributors/index.json"
+          options:
+            - Riley
+            - Danelle
+            - Frances
+            - Kenneth
+      - name: "date"
+        field:
+          element: "text"
+          label: "date"
+          value: "2016-01-01"
+      - name: "fonts"
+        field:
+          element: "multiselect"
+          label: "fonts in use"
+          placeholder: "Choose fonts…"
+          help: "Fonts referenced in the post."
+          # options: "node_modules/losttype-listing/index.json"
+          options:
+            - Lavanderia
+            - Dude
+            - Klinic Slab
+            - Fairview
