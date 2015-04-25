@@ -1,9 +1,10 @@
 prose:
-  rooturl: 'src'
-  siteurl: 'http://blog.losttype.com/'
-  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  # ignore: ['src/_authors.json', 'src/_fonts.json']
-  media: 'media'
+  rooturl: "src"
+  siteurl: "http://blog.losttype.com/"
+  baseurl: ""
+  # relativeLinks: "http://prose.github.io/starter/links.jsonp"
+  # ignore: ["src/_authors.json", "src/_fonts.json"]
+  media: "media"
   metadata:
     src:
       - name: "title"
@@ -21,13 +22,13 @@ prose:
           label: "Author"
           options:
             - "name": "Riley Cran"
-              "value": "riley-cran"
+              "value": riley-cran
             - "name": "Danelle Cheney"
-              "value": "danelle-cheney"
+              "value": danelle-cheney
             - "name": "Frances MacLeod"
-              "value": "frances-macLeod"
+              "value": frances-macLeod
             - "name": "Kenneth Ormandy"
-              "value": "kenneth-ormandy"
+              "value": kenneth-ormandy
       - name: "date"
         field:
           element: "text"
