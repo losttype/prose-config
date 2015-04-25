@@ -33,7 +33,7 @@ prose:
           placeholder: "Choose fonts…"
           help: "Fonts referenced in the post."
           options: >
-            [{ "name": "Granny Apples", "value": "granny-apples" }]
+            { "name": "Granny Apples", "value": "granny-apples" }
           alterable: true
           # options:
           #   - Lavanderia
