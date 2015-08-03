@@ -1,9 +1,8 @@
 prose:
   rooturl: "src"
   siteurl: "http://blog.losttype.com/"
-  baseurl: ""
   # relativeLinks: "http://prose.github.io/starter/links.jsonp"
-  # ignore: ["src/_authors.json", "src/_fonts.json"]
+  ignore: ["media"]
   media: "media"
   metadata:
     src:
@@ -15,26 +14,27 @@ prose:
         field:
           element: "hidden"
           label: "Template"
-          value: "post.html"
+          value: "post.hbs"
       - name: "author"
         field:
           element: "select"
           label: "Author"
+          value: rileycran
           options:
             - "name": "Riley Cran"
-              "value": riley-cran
+              "value": rileycran
             - "name": "Danelle Cheney"
-              "value": danelle-cheney
+              "value": danellecheney
             - "name": "Frances MacLeod"
-              "value": frances-macLeod
+              "value": francesmacLeod
             - "name": "Kenneth Ormandy"
-              "value": kenneth-ormandy
+              "value": kennethormandy
       - name: "date"
         field:
           element: "text"
           label: "Date"
           help: "YYYY-MM-DD HH:MM:SS"
-          value: "2016-01-01 14:30:00"
+          value: "CURRENT_DATETIME"
       - name: "fonts"
         field:
           element: "multiselect"
@@ -63,4 +63,4 @@ prose:
         field:
           element: checkbox
           label: "Comments"
-          value: "false"
+          value: false
